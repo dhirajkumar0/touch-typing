@@ -1,0 +1,50 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.key-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.key-list li {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-container h2 {
+  font-size: 18px;
+  color: #333;
+}
